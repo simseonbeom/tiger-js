@@ -1,0 +1,95 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  padding: 1rem;
+  border: 2px solid dodgerblue;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+section{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: #c3e2dd;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+
+span{
+  font-size: 3rem;
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: 999;
+}
+
+
+
+
+svg{
+  position: fixed;
+  left:0;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+}
+
+svg rect{
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+  stroke-width: 20px;
+  stroke:dodgerblue;
+  fill:transparent;
+  stroke-dashoffset: 3208;
+  stroke-dasharray: 3208;
+}
+
+
+
+section{
+  overflow: hidden;
+}
+
+
+.wrap{
+  display: flex; 
+  width: fit-content;
+
+}
+
+.wrap > div{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  border:5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
